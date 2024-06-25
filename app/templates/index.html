@@ -1,0 +1,22 @@
+<center>
+	<!-- root directory is `app` folder -->
+	<img src="{{ href }}" height="600" />
+	<form method="POST">
+		<label>Input a comma separated list of age values (Eg: 1, 3.3, 8): </label>
+		<input type="text" name="text" />
+		<input type="submit" />
+	</form>
+	<!-- <p color="red">{{ message }}</p> -->
+
+	<!-- Flash Messages 
+        messages categories: ('error', 'success')
+    -->
+	{% with messages = get_flashed_messages(with_categories=true) %} {% if
+	messages %}
+	<ul>
+		{% for category, message in messages %}
+		<li class="{{ category }}">{{ message }}</li>
+		{% endfor %}
+	</ul>
+	{% endif %} {% endwith %}
+</center>

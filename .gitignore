@@ -1,0 +1,5 @@
+# Ignore .flask-env folder
+.flask-env/
+
+# Ignore ML model file
+ML model

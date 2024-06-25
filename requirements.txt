@@ -1,0 +1,8 @@
+Flask==3.0.3
+joblib==1.4.2
+kaleido==0.2.1
+matplotlib==3.9.0
+numpy==2.0.0
+pandas==2.2.2
+plotly==5.22.0
+scikit-learn==1.5.0
