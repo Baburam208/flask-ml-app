@@ -2,4 +2,4 @@
 .flask-env/
 
 # Ignore ML model file
-ML model.ipynb
+ML_model.ipynb
